@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-testing
+
 <div class="jumbotron">
 	<div class="text-center">
     <h1>{{$title}}</h1>
