@@ -32,7 +32,7 @@ Route::get('/drinks','PagesController@drinks');
 Route::resource('posts','PostsController');
 Route::resource('food','FoodController');
 Route::resource('drinks','DrinksController');
-
+Route::resource('order','OrderController');
 
 Auth::routes();
 
