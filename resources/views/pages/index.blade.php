@@ -21,13 +21,12 @@
 	      <p class="card-text"><i class="fas fa-coffee fa-7x"></i><br><b>DRINKS LIST</b></p>
 	    </div>
 	  </div>
-	  <br>
 	</div>
 
-	<div class="card-deck" style="padding-top: 12px">
+	<div class="card-deck" style="padding-top: 4px;">
 	  <div class="card bg-warning" onclick="window.location='/drinks'">
 	    <div class="card-body text-center">
-	      <p class="card-text"><i class="fas fa-coffee fa-7x"></i><br><b>TAKE ORDER</b></p>
+	      <p class="card-text"><i class="fas fa-clipboard-list fa-7x"></i><br><b>TAKE ORDER</b></p>
 	    </div>
 	  </div>
 	 </div>

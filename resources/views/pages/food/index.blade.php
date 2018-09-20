@@ -17,9 +17,9 @@
 		@foreach($food as $foods)
 				<tr>
 					<td><img src="/storage/food_images/{{$foods->food_image}}" style="width: 75px;height: 75px"></td>
-					<td><a href="/food/{{$foods->id}}/edit/"> {{ $foods->foodname }} </a></td>
+					<td>{{ $foods->foodname }}</td>
 					<td>{{$foods->price}}</td>
-					<td><button class="btn btn-primary btn-sm">Add Order</button></td>
+					<td><a href="/food/{{$foods->id}}/edit/" class="btn btn-primary btn-sm">Edit</a></td>
 				</tr>
 		@endforeach
 			</tbody>
